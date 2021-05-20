@@ -1,7 +1,7 @@
 <h1> Profile Card Component </h1>
 <hr>
 <img src="https://user-images.githubusercontent.com/66078558/118902427-89a5f400-b90d-11eb-811f-4b8296304aad.png" alt="Preview">
-<h3>You can visit at: <a href="https://stats-preview-card-beta.vercel.app/" target="_blank">Vercel - Profile Card Component</a>
+<h3>You can visit at: <a href="https://profilecard-puce.vercel.app/" target="_blank">Vercel - Profile Card Component</a>
 <br><br> and: <a href="https://www.frontendmentor.io/solutions/status-preview-card-with-html-and-css-_cTf1gRsF" target="_blank">Frontend Mentor - Profile Card Component</a>
 </h3>
 <hr>
