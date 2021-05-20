@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+body{
+    background: url('../images/bg-pattern-bottom.svg') hsl(185, 75%, 39%) no-repeat;
+    background-size: contain;
+    background-position: calc(100vw - 54.5vw) calc(100vh - 50vh);     
+}
+
+main{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../images/bg-pattern-top.svg') no-repeat;
+    background-size: contain;
+    background-position: calc(50vw - 62vw) calc(50vh - 80vh);
+}
+
+section{
+    background-color: #fff;
+    width: 290px;
+    height: 330px;
+    border-radius: 10px;
+    box-shadow: 0 0 .20px #000,
+                0 0 .10px #000;
+}
+.image{
+    width: 100%;
+    height: 36%;
+    background: url('../images/bg-pattern-card.svg') no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+}
+.content{
+    width: 100%;
+    height: 67%;
+}
+.content .prefil{
+    width: 100%;
+    height: 60%;
+    border-bottom: solid 1px rgba(150, 150, 150, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content .prefil .locate{
+    margin-top: -3.5em;
+}
+.content .prefil .locate .profile-pic{
+    width: 90px;
+    height: 90px;
+    background: url('../images/image-victor.jpg') no-repeat;
+    background-size: cover;
+    border-radius: 100px 100px 100px 100px;
+    border: 3px solid #fff;
+}
+.content .prefil div div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 1.5rem;
+}
+.content .prefil div div h2{
+    padding-right: .5rem;
+    font-size: .94rem;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+.content .prefil div div p{
+    font-size: .92rem;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+.content .prefil div h3{
+    font-size: .78rem;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    padding-top: .5rem;
+}
+.content .follow{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+.content .follow div{
+    padding: 0 1rem;
+}
+.content .follow div:nth-child(2){
+    padding-right: 1.5rem;
+}
+.content .follow h3{
+    font-size: .6rem;
+    padding-top: .4rem;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    letter-spacing: .1rem;
+}
+.content .follow p{
+    font-size: 1rem;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(0, 0%, 100%); text-decoration: none;}
